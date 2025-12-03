@@ -1,0 +1,1 @@
+// recap fetch() & send and console each data
