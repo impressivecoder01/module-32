@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #post-container{
+            max-width: 1260px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            row-gap: 30px;
+        }
+        .post-card{
+            border: 1px solid lightblue;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 1px 1px gray;
+            height: 100%;
+        }
+        .post-card p{
+            text-align: justify;
+        }
+    </style>
 </head>
 <body>
     <h1>learning</h1>
@@ -11,10 +31,13 @@
     <br> <br>
     <button onclick="loadPost()">Load Post</button>
 
-    <ul id="post-container"></ul>
+    <div id="post-container">
+        
+    </div>
 
     <script src="classThree.js"></script>
     <script src="classFour.js"></script>
     <script src="classFive.js"></script>
+    <script src="classSix.js"></script>
 </body>
 </html>
